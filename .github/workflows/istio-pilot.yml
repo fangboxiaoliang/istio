@@ -9,7 +9,9 @@ name: istio-pilot
 jobs:
   pilot:
     runs-on:
-    - ubuntu-latest
+    - self-hosted
+    - linux
+    - ARM64
     services:
       registry:
         image: registry:2

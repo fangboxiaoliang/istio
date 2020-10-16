@@ -1,3 +1,4 @@
+runs-on: [ self-hosted, linux, ARM64 ]
 matrix:
   BASE_DISTRIBUTION:
     - "default"
