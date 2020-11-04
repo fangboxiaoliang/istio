@@ -54,3 +54,8 @@ latest versions should check badges below:
 # Notice
 
 * *all images tag version without `v` prefix*
+
+1、cd istio1.7.3/bin
+2、export PATH=$PATH:$PWD
+3、istioctl install -f ./deploy/stio-operator.yaml
+4、edit deployment requiredDuringSchedulingIgnoredDuringExecution value is “- arm64”
