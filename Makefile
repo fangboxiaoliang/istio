@@ -1,6 +1,6 @@
 HUB=ghcr.io/querycap/istio docker.io/querycapistio
 
-gen: install
+gen:
 	HUB="$(HUB)" go run github.com/querycap/ci-infra/cmd/imagetools
 
 install:
